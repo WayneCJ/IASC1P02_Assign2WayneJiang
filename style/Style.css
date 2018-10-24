@@ -29,7 +29,7 @@
 	top: 0px;
 	right:10px;
 }
-/*The relative position*/
+/*The relative position with nested selector*/
 div.box img{
 	position:relative;
 	left:200px;
