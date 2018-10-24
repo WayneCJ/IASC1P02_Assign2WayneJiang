@@ -1,0 +1,59 @@
+/*all classes selector*/
+/*The Color Class*/
+.makeitred{
+	color:red;
+}
+/*The Text Size Class*/
+.makeitbig{
+	font-size:25px;
+}
+/*The Font-Family Class*/
+.changeitfont{
+	font-family:"Time New Roman", Times, serif;
+	/*The absolute position*/
+	position:absolute;
+	top:100px;
+	right:90px;
+}
+/*The Transformation of the case*/
+.makeitcap{
+	text-transform:uppercase;
+}
+
+
+
+
+/*The fixed position*/
+#fixedp{
+	position:fixed;
+	top: 0px;
+	right:10px;
+}
+/*The relative position*/
+div.box img{
+	position:relative;
+	left:200px;
+}
+
+
+
+
+/*group selector*/
+.p2, .p3{
+	color: red;
+}
+/*nested selector*/
+div.first a{
+	color: #2eb8b8;
+}
+
+
+
+/*the Box model: margin, border, padding, content*/
+.box{ 
+	margin: 20px 5% 20px 5%;
+	border: black 3px double; 
+	padding: 10px 5% 10px 5%;
+}
+
+
